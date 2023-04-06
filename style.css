@@ -13,11 +13,17 @@ body{
   height: 100vh;
   background: linear-gradient(45deg, #565555,#2b5555);
 }
+img{
+  height: 50px;
+  background: transparent;
+  width: 150px;
+  padding: 10px 0px 0px 20px;
+}
 .Calculator{
   border: 1px solid #467775;
   font-size: 16px;
   padding: 20px;
-  box-shadow: 0 3px 15px rgba(10, 10, 10, 0.4);
+  box-shadow: 0 3px 15px rgba(20, 20, 20, 0.4);
   background: transparent;
   border-radius: 20px;
 }
@@ -30,10 +36,13 @@ input{
   width: 300px;
   height: 80px;
   text-align: right;
+  padding-right: 5px;
+  border-radius: 10px;
   background: transparent;
   border: none;
   color: #ffff;
   outline: none;
+  box-shadow: 0 3px 15px rgba(32, 32, 32, 0.4);
 }
 button{
   width: 60px;
@@ -57,3 +66,23 @@ button:hover{
   transform: scale(1.1);
   cursor: pointer;
 }
+@media screen and (max-width: 396px) {
+  button{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+
+  }
+  input{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+  }
+  img{
+    height: 25px;
+    background: transparent;
+    width: 75px;
+    padding: 5px 0px 0px 10px;
+  }
+  }
