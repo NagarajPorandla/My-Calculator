@@ -66,12 +66,11 @@ button:hover{
   transform: scale(1.1);
   cursor: pointer;
 }
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 600px) {
   button{
     width: 30px;
     height: 30px;
     font-size: 15px;
-
   }
   input{
     font-size: 20px;
