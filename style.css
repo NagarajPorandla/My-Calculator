@@ -36,7 +36,7 @@ input{
   width: 300px;
   height: 80px;
   text-align: right;
-  padding-right: 5px;
+  /* padding-right: 5px; */
   border-radius: 10px;
   background: transparent;
   border: none;
@@ -67,21 +67,24 @@ button:hover{
   cursor: pointer;
 }
 @media screen and (max-width: 600px) {
+  .Calculator{
+    padding: 15px;
+  }
   button{
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
   }
   input{
     font-size: 20px;
-    width: 200px;
+    width: 240px;
     height: 40px;
     margin: 5px;
   }
   img{
-    height: 25px;
+    height: 35px;
     background: transparent;
-    width: 75px;
+    width: 100px;
     padding: 5px 0px 0px 5px;
   }
   }
